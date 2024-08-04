@@ -1,0 +1,110 @@
+.title{
+    text-decoration: none;
+    color: #02563c;
+    font-family: "Zain";
+    font-size: 50px;
+}
+#navbar{
+	background-color: #669900;
+	position: sticky;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+}
+a{
+	text-decoration: none;
+	font-size: 40px;
+	padding: 15px;
+	display: inline-block;
+    color: black;
+    font-family: "Zain", sans-serif;
+
+    
+}
+ul{
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	z-index: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li:hover{background-color: #6f9d7d;}
+ul li:hover ul{display: block;} 
+ul li ul{
+	position: absolute;
+	width: 200px;
+	display: none;
+
+}
+ul li ul li{
+	background-color: #2a6f3d;
+	display: block;
+    font-size: 25px;
+    text-align: center;
+    padding: 6px;
+    font-family: "Zain", sans-serif;
+    
+
+}
+ul li ul li:hover{
+	background-color: #aec26e;
+	color: black;
+}
+.f{
+    float: right;
+}
+ 
+p{
+	font-size: 30px;
+	padding: 10px;
+    color: black;
+    font-family: "Zain", sans-serif;
+    direction: rtl;
+}
+#div1{
+	background-color: #ccccb3;
+	border-radius: 20px;
+	float: right;
+	margin-top: 40px;
+	display: flex;
+	position: relative;
+	z-index: 1;
+}
+.p2{
+	text-align: center;
+	color: #3d3d29;
+	font-size: 50px;
+}
+.img5{
+	width: 150px;
+	height: 250px;
+	margin-right: 20px;
+	border: solid 1px;
+}
+#div2{
+	background-color: #ccccb3;
+	border-radius: 20px;
+	position: relative;
+	padding: 20px;
+	height: 300px;
+	z-index: 1;
+}
+#d2{
+	width: 100%;
+	z-index: 1;
+	position: relative;
+	background-color:   #000066;
+	height: 180px;
+	padding-bottom:20px ;
+}
+.p3{
+	text-align: center;
+	color: white;
+	font-family: "Zain";
+	font-size: 20px;
+
+}

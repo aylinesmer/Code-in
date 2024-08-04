@@ -1,0 +1,103 @@
+.title{
+    text-decoration: none;
+    color: #02563c;
+    font-family: "Zain";
+    font-size: 50px;
+}
+#navbar{
+	background-color: #669900;
+	position: sticky;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+    
+}
+a{
+	text-decoration: none;
+	font-size: 40px;
+	padding: 15px;
+	display: inline-block;
+    color: black;
+    font-family: "Zain", sans-serif;
+
+    
+}
+ul{
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+ul li{
+    display: inline-block;
+}
+ul li:hover{background-color: #6f9d7d;}
+ul li:hover ul{display: block;} 
+ul li ul{
+	position: absolute;
+	width: 200px;
+	display: none;
+
+}
+ul li ul li{
+	background-color: #2a6f3d;
+	display: block;
+    font-size: 25px;
+    text-align: center;
+    padding: 6px;
+    font-family: "Zain", sans-serif;
+    
+
+}
+ul li ul li:hover{
+	background-color: #aec26e;
+	color: black;
+}
+.f{
+    float: right;
+}
+.zain-regular {
+    font-family: "Zain", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+	font-family: "Zain";
+	font-size: 35px;
+	color: #666633;
+	text-align: center;
+}
+.par{
+	font-family: "Zain";
+	font-size: 25px;
+	padding-right: 20px;
+	cursor: pointer;
+	direction: rtl;
+}
+#d{
+	width: 75%;
+	border-radius: 30px;
+	background-color: #eeeedd;
+	position: relative;
+	z-index: 1;
+	margin-left: 140px;
+}
+.par:hover{
+	color: blueviolet;
+}
+#d2{
+	width: 100%;
+	z-index: 1;
+	position: relative;
+	margin-bottom: 0px;
+	background-color:   #000066;
+	height: 170px;
+}
+.p2{
+	text-align: center;
+	color: white;
+	font-family: "Zain";
+	font-size: 20px;
+
+}

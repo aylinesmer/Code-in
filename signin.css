@@ -1,0 +1,46 @@
+
+h1{
+	font-size: 40px;
+	font-family: "Zain";
+	text-align: center;
+	margin-top: 30px;
+
+}
+#d1{
+	margin-left: 500px;
+	background-color:  #ecd9c6;
+	border-radius: 30px;
+	width: 400px;
+
+}
+input, textarea{
+	margin-top: 0px;
+	font-family: "Zain";
+	text-align: center;
+	margin-left: 120px;
+	padding: 10px 35px;
+}
+p, option{
+	font-family: "Zain";
+	font-size: 25px;
+	margin-right: 150px;
+	direction: rtl;
+}
+select{
+	margin-left: 130px;
+}
+#d2{
+	width: 100%;
+	z-index: 1;
+	position: relative;
+	margin-bottom: 0px;
+	background-color:   #000066;
+	height: 170px;
+}
+.p2{
+	text-align: center;
+	color: white;
+	font-family: "Zain";
+	font-size: 20px;
+
+}
